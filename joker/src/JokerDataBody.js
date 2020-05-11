@@ -18,7 +18,7 @@ let jokeComponent= jokeList.filter(props=>props.answers.length>1).map(props => <
 
 let jokeTitle='I Got Knock Knock Jokes?!!'; //Title for this component
 document.title=jokeTitle;
-let para="Below are a collection of absolutely useless knock knock jokes! YAY!!!";
+let para="Below are a collection of absolutely useless knock knock jokes! YAY!";
 
     return(
         <div>
