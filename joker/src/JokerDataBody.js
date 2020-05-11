@@ -6,8 +6,10 @@ import './joker.css';
 function JokerDataBody(){
 //jokeList is an array with properties 'who' and 'answers'. Props is a parameter here used to get values from the array
 
+
 //The component below can also be filtered property lengths of the jokeList array
 let jokeComponent= jokeList.filter(props=>props.answers.length>1).map(props => <Joker who={props.who} answers={props.answers}/>);
+
 
 /*The line above can be written another way:
 <Joker 
