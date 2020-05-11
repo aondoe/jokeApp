@@ -7,8 +7,6 @@ import './joker.css'
  * 
 */
 
-
-
  //below listed are the following props: props.who, props.answers
 function Joker(props){ //props variable is how you add a prop to 
     return(
