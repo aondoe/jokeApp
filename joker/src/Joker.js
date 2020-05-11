@@ -1,7 +1,13 @@
 import React from 'react';
 import './joker.css'
 
-/**** *  *  Think of this component as the model and think of JokerBody.js as the controller *  */
+/**** *  *  Think of this component as the model and think of JokerBody.js as the controller *  
+ * 
+ * This is the creation of a Joker component.
+ * 
+*/
+
+
 
  //below listed are the following props: props.who, props.answers
 function Joker(props){ //props variable is how you add a prop to 
